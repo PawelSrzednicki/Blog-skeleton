@@ -1,0 +1,19 @@
+// foundation
+@import "settings";
+@import "~foundation-sites/scss/foundation";
+
+@include foundation-everything;
+
+// fonts
+@import "~roboto-fontface/css/roboto/roboto-fontface.css";
+
+// icons
+$material-icons-font-path: "~material-icons/iconfont/";
+
+@import "~material-icons/iconfont/material-icons.scss";
+
+body {
+  font-family: "Roboto";
+}
+//components
+@import "./components/base";
